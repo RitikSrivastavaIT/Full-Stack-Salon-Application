@@ -28,7 +28,7 @@ public class SalonServiceOfferingController {
 
         ServiceOffering serviceOffering = serviceOfferingService.createService(salonDTO, serviceDTO, categoryDTO);
 
-        return new ResponseEntity<ServiceOffering>(serviceOffering, HttpStatus.CREATED);
+        return new ResponseEntity<>(serviceOffering, HttpStatus.CREATED);
     }
 
     @PostMapping("/{id}")
