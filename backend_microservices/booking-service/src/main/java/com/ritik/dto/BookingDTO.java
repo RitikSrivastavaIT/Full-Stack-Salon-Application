@@ -1,7 +1,6 @@
 package com.ritik.dto;
 
 import com.ritik.domain.BookingStatus;
-import jakarta.persistence.ElementCollection;
 import lombok.Data;
 
 import java.time.LocalDateTime;

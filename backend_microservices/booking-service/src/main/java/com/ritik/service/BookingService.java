@@ -7,7 +7,6 @@ import com.ritik.dto.ServiceDTO;
 import com.ritik.dto.UserDTO;
 import com.ritik.modal.Booking;
 import com.ritik.modal.SalonReport;
-import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 import java.util.List;
