@@ -49,8 +49,4 @@ public class PaymentController {
 
         return ResponseEntity.ok(paymentService.proceedPayment(paymentOrder,paymentId,paymentLinkId));
     }
-
-
-
-
 }
